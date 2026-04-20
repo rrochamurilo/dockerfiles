@@ -27,6 +27,11 @@ foreach ($polos as $estado) {
 echo "<ul>
         <li>Polo PR: Ativo</li>
         <li>Polo SP: Ativo</li>
+        <li>polo MG: Inativo</li>
+        <li>Polo SC: Ativo</li>
+        <li>Polo RJ: Ativo</li>
+        <li>Polo BA: Ativo</li>
+        <li>Polo MT: Ativo</li>
       </ul>";
 echo "<hr>";
 echo "Data atual: " . date('d/m/Y H:i:s');
