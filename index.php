@@ -7,6 +7,18 @@ foreach ($prestadores as $nome) {
     echo "<tr><td>" . $nome . "</td></tr>";
 }
 echo "</table>";
+$servicos = [
+    "João Silva" => "Guincho Prancha",
+    "Ricardo Oliveira" => "Guincho Pesado",
+    "Tiago Mecânico" => "Mecânico Móvel Diesel"
+];
+
+echo "<h2>Prestadores Disponíveis no Raio:</h2>";
+echo "<ul>";
+foreach ($servicos as $nome => $especialidade) {
+    echo "<li><strong>$nome</strong> - Especialidade: $especialidade</li>";
+}
+echo "</ul>";
 $polos = ["Paraná", "São Paulo", "Minas Gerais", "Santa Catarina", "Rio de Janeiro", "Bahia", "Mato Grosso"];
 
 foreach ($polos as $estado) {
