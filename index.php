@@ -2,7 +2,7 @@
 echo "<h1>Marketplace de Guinchos - Rodando no Docker</h1>";
 echo "<p>Status do Sistema: Operacional</p>";
 $prestadores = ["João Pimenta", "Ernesto Papo Reto", "José Pereira", "Autocar Pronto Socorro", "Guincho esperança"]; 
-echo "<table border='1'>"
+echo "<table border='1'>";
 foreach ($prestadores as $nome) {
     echo "<tr><td>" . $nome . "</td></tr>";
 }
